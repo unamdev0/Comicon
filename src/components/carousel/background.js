@@ -12,11 +12,9 @@ const BackGround = () => {
     speed: 500
   };
   return (
-    // <Slider {...settings}>
     <div
       className="carrousel_wrapper"
       style={{
-        background: "red",
         height: `${window.innerHeight}px`,
         overflow: "hidden"
       }}
@@ -31,7 +29,8 @@ const BackGround = () => {
               height: `${window.innerHeight}px`
             }}
           ></div>
-        </div> <div>
+        </div>{" "}
+        <div>
           <div
             className="carrousel_image"
             style={{
@@ -53,7 +52,6 @@ const BackGround = () => {
         </div>
       </Slider>
     </div>
-    // </Slider>
   );
 };
 
