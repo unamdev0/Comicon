@@ -41,8 +41,8 @@ export default class Header extends Component {
           color: this.state.showHeader?"black":"white",
         }}>
           <div className="headerLogo">
-            <div className="righteous title">The Venue</div>
-            <div className="subTitle">Musical Events</div>
+            <div className="righteous title">Comicon India</div>
+            <div className="subTitle">Mumbai</div>
           </div>
           <IconButton
             aria-label="Menu"
